@@ -1,13 +1,13 @@
 #Provides functionality of conversion of different measurement types
-class Dimension
+class Side
 
   attr_reader :value
-  def initialize(value)
-    @value = value
+  def initialize(value, unit)
+    @value = unit.convert_to_mm(value)
   end
 
   def +(other)
-    self.to_mm + other.to_mm
+    @value + other.value
   end
 
 end
