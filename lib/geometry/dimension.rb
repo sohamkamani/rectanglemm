@@ -1,25 +1,13 @@
 #Provides functionality of conversion of different measurement types
 class Dimension
 
-  attr_reader :mm
-  def initialize(mm)
-    @mm = mm
-  end
-
-  def self.meter(meter)
-    self.new(meter * 1000)
-  end
-
-  def self.cm(cm)
-    self.new(cm * 10)
-  end
-
-  def self.mm(mm)
-    self.new(mm)
+  attr_reader :value
+  def initialize(value)
+    @value = value
   end
 
   def +(other)
-    @mm + other.mm
+    self.to_mm + other.to_mm
   end
 
 end

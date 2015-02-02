@@ -2,8 +2,8 @@ require 'spec_helper'
 
 describe 'Rectangle' do
 
-	let(:rectangle1) {Rectangle.new(Dimension.meter(1), Dimension.cm(50))}
-	let(:rectangle2) {Rectangle.new(Dimension.meter(1), Dimension.mm(50))}
+	let(:rectangle1) {Rectangle.new(Meter.new(1), Cm.new(50))}
+	let(:rectangle2) {Rectangle.new(Meter.new(1), Mm.new(50))}
 
 
 	it 'measures perimeter' do
