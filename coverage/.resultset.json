@@ -7,9 +7,14 @@
         1
       ],
       "/Users/sohamchetan/Documents/Rectanglemm/lib/geometry/dimension.rb": [
+        null,
         1,
         null,
         1,
+        1,
+        4,
+        null,
+        null,
         1,
         2,
         null,
@@ -22,25 +27,22 @@
         1,
         null,
         null,
-        1,
-        0,
-        null,
-        null,
         null
       ],
       "/Users/sohamchetan/Documents/Rectanglemm/lib/geometry/rectangle.rb": [
-        1,
-        1,
-        1,
-        1,
-        null,
         null,
         1,
         1,
+        2,
+        2,
+        null,
+        null,
+        1,
+        2,
         null,
         null
       ]
     },
-    "timestamp": 1422862903
+    "timestamp": 1422863264
   }
 }
