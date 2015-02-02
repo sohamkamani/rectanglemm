@@ -1,6 +1,3 @@
-require 'geometry/dimension'
-
+require 'geometry/side'
 require 'geometry/rectangle'
-require 'geometry/meter'
-require 'geometry/cm'
-require 'geometry/mm'
+require 'geometry/unit'

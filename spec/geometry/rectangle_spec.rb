@@ -2,16 +2,16 @@ require 'spec_helper'
 
 describe 'Rectangle' do
 
-	let(:rectangle1) {Rectangle.new(Meter.new(1), Cm.new(50))}
-	let(:rectangle2) {Rectangle.new(Meter.new(1), Mm.new(50))}
+	let(:rectangle1) {Rectangle.new(Side.new(5, Unit.meter), Side.new(10, Unit.cm))}
+	let(:rectangle2) {Rectangle.new(Side.new(25, Unit.meter), Side.new(100, Unit.mm))}
 
 
 	it 'measures perimeter' do
-		expect(rectangle1.perimeter).to eq(3000)
+		expect(rectangle1.perimeter).to eq(10200)
 	end
 
 	it 'measures perimeter' do
-		expect(rectangle2.perimeter).to eq(2100)
+		expect(rectangle2.perimeter).to eq(50200)
 	end
 	
 	
