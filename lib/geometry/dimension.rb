@@ -1,7 +1,7 @@
 #Provides functionality of conversion of different measurement types
 class Dimension
 
- attr_reader :mm
+  attr_reader :mm
   def initialize(mm)
     @mm = mm
   end
@@ -16,6 +16,10 @@ class Dimension
 
   def self.mm(mm)
     self.new(mm)
+  end
+
+  def +(other)
+    @mm + other.mm
   end
 
 end

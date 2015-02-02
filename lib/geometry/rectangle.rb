@@ -1,8 +1,8 @@
 #It takes length and breadth and provides functionality of perimeter
 class Rectangle
 	def initialize(length, breadth)
-		@length = length.mm
-		@breadth = breadth.mm
+		@length = length
+		@breadth = breadth
 	end
 
 	def perimeter

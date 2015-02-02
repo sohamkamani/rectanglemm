@@ -27,6 +27,10 @@
         1,
         null,
         null,
+        1,
+        2,
+        null,
+        null,
         null
       ],
       "/Users/sohamchetan/Documents/Rectanglemm/lib/geometry/rectangle.rb": [
@@ -43,6 +47,6 @@
         null
       ]
     },
-    "timestamp": 1422866523
+    "timestamp": 1422871006
   }
 }
